@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-image: url('https://wallpaper-house.com/data/out/9/wallpaper2you_332359.jpg');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    border: 8px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-hand{
+    position: relative;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 50%;
+}
+
+.tips{
+    width: 50%;
+    position: absolute;
+    transform-origin: 100%;
+    transition: all 0.5s;
+    transition-timing-function: step-end;
+    border: 3px solid green;
+
+}
+.hour{
+    border-color: darkblue;
+}
+
+.minute{
+    z-index: 1;
+    border-color: red;
+}
+
+.second{
+    z-index: 2;
+}
+
+
